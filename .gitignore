@@ -1,3 +1,5 @@
 /downloads/
 /fixtures/webp/vectors/*.webp
 /fixtures/jp2/conformance/*/
+/fixtures/tga/gimp/*.tga
+/fixtures/tga/gimp/*.png
