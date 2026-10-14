@@ -1,0 +1,27 @@
+{
+ "Composite:ImageSize": "1 1",
+ "Composite:Megapixels": 1e-06,
+ "File:ExifByteOrder": "MM",
+ "File:FileType": "Extended WEBP",
+ "File:FileTypeExtension": "WEBP",
+ "File:MIMEType": "image/webp",
+ "IFD0:Artist": "me",
+ "IFD0:ResolutionUnit": 2,
+ "IFD0:XResolution": 72,
+ "IFD0:YCbCrPositioning": 1,
+ "IFD0:YResolution": 72,
+ "RIFF:AlphaCompression": 1,
+ "RIFF:AlphaFiltering": 1,
+ "RIFF:AlphaPreprocessing": 1,
+ "RIFF:HorizontalScale": 0,
+ "RIFF:ImageHeight": 1,
+ "RIFF:ImageWidth": 1,
+ "RIFF:VP8Version": 2,
+ "RIFF:VerticalScale": 0,
+ "RIFF:WebP_Flags": 28,
+ "System:FileSize": 586,
+ "XMP-dc:Subject": [
+  "test"
+ ],
+ "XMP-x:XMPToolkit": "Image::ExifTool 12.46"
+}

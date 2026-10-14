@@ -1,0 +1,22 @@
+{
+ "Composite:ImageSize": "16 16",
+ "Composite:Megapixels": 0.000256,
+ "ExifTool:Warning": "[minor] Text/EXIF chunk(s) found after PNG IDAT (may be ignored by some readers) [x2]",
+ "File:FileType": "PNG",
+ "File:FileTypeExtension": "PNG",
+ "File:MIMEType": "image/png",
+ "PNG:BackgroundColor": 0,
+ "PNG:BitDepth": 1,
+ "PNG:ColorType": 0,
+ "PNG:Comment": "test comment",
+ "PNG:Compression": 0,
+ "PNG:Filter": 0,
+ "PNG:ImageHeight": 16,
+ "PNG:ImageWidth": 16,
+ "PNG:Interlace": 0,
+ "System:FileSize": 572,
+ "XMP-dc:Creator": [
+  "Phil Harvey"
+ ],
+ "XMP-x:XMPToolkit": "Image::ExifTool 6.51"
+}

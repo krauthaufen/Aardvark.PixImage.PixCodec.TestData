@@ -1,0 +1,25 @@
+{
+ "Composite:ImageSize": "3 2",
+ "Composite:Megapixels": 6e-06,
+ "File:FileType": "EXR",
+ "File:FileTypeExtension": "EXR",
+ "File:ImageHeight": 2,
+ "File:ImageWidth": 3,
+ "File:MIMEType": "image/x-exr",
+ "OpenEXR:Channels": [
+  "A half 1 1",
+  "B half 1 1",
+  "G half 1 1",
+  "R half 1 1"
+ ],
+ "OpenEXR:Compression": 4,
+ "OpenEXR:DataWindow": "0 0 2 1",
+ "OpenEXR:DisplayWindow": "0 0 2 1",
+ "OpenEXR:EXRVersion": 2,
+ "OpenEXR:Flags": 0,
+ "OpenEXR:LineOrder": 0,
+ "OpenEXR:PixelAspectRatio": 1,
+ "OpenEXR:ScreenWindowCenter": "0 0",
+ "OpenEXR:ScreenWindowWidth": 1,
+ "System:FileSize": 395
+}

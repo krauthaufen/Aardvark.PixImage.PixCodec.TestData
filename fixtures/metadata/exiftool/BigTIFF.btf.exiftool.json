@@ -1,0 +1,16 @@
+{
+ "Composite:ImageSize": "8 8",
+ "Composite:Megapixels": 6.4e-05,
+ "File:FileType": "BTF",
+ "File:FileTypeExtension": "BTF",
+ "File:MIMEType": "image/x-tiff-big",
+ "IFD0:BitsPerSample": "8 8 8",
+ "IFD0:ImageHeight": 8,
+ "IFD0:ImageWidth": 8,
+ "IFD0:PhotometricInterpretation": 2,
+ "IFD0:RowsPerStrip": 8,
+ "IFD0:SamplesPerPixel": 3,
+ "IFD0:StripByteCounts": 192,
+ "IFD0:StripOffsets": 192,
+ "System:FileSize": 384
+}
