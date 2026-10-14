@@ -1,0 +1,4 @@
+# file	version	dataType	cols	rows	depth	bands	validPixels	masks	usesNoData	zMin	zMax	maxZError	blobSize	noData	sha256
+esri_bluemarble_256_256_3_byte_lerc2.lerc	3	1	256	256	1	3	43008	1	0	0.0	255.0	0.5	56389	-	b2adb1c19594c2cf5f98b70264e9b675dcfa29efc83ab6c375d32f83c456dee8
+esri_california_400_400_1_float_lerc2.lerc	3	6	400	400	1	1	58515	1	0	-82.97209167480469	4080.61376953125	7.5e-05	176451	-	93aad483a54d8b7a47e0d97dbe37913a4638b9170b05fefbba7eb36e3809bef4
+esri_world_lerc1.lerc	1	6	257	257	1	1	65025	1	0	-27.458635330200195	5474.1728515625	0.1	63518	-	45cff5a77448d11e6e8c10ba2ec23c503e90500f11fbbe5b7856e9d6363ca06a

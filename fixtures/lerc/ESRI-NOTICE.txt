@@ -1,0 +1,36 @@
+esri_bluemarble_256_256_3_byte_lerc2.lerc, esri_california_400_400_1_float_lerc2.lerc and esri_world_lerc1.lerc are
+the files bluemarble_256_256_3_byte.lerc2, california_400_400_1_float.lerc2 and world.lerc1 from the testData folder
+of https://github.com/Esri/lerc, unchanged except for the name (fetched with tests/oracle/gen_lerc.py --fetch-esri).
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use these files except in compliance with
+the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
+specific language governing permissions and limitations under the License.
+
+The NOTICE file of that repository reads:
+
+
+LERC
+Copyright 2015-2026 Esri
+
+This software embodiment is an implementation of
+
+United States Patent 9,002,126, Limited Error Raster Compression (LERC).
+Assignee: Esri.
+Assignors/Inventors: Maurer, Thomas (Redlands, CA); Gao, Peng (Redlands, CA); Becker, Peter (Redlands, CA).
+
+The right to practice this patent is hereby granted under the Apache V2.0 License Agreement,
+Clause 3 - Grant of Patent License.
+
+The license is available at
+http://github.com/Esri/lerc/
+
+For additional information, contact:
+
+Environmental Systems Research Institute, Inc.
+Attn: Contracts and Legal Department
+380 New York Street
+Redlands, CA 92373
+E-mail: contracts@esri.com
