@@ -1,0 +1,6 @@
+Conformance / regression vectors of libwebp, from https://chromium.googlesource.com/webm/libwebp-test-data
+
+The .webp files are NOT committed: the upstream repository carries no licence file.
+Fetch them with fetch/fetch_webp_vectors.sh; PixCodec's WebpTests.VectorsMatchReference then checks every file
+listed in refs.txt (size, channel count and SHA-256 of the pixels libwebp decodes it to; written by PixCodec's
+tests/oracle/gen_webp.py).

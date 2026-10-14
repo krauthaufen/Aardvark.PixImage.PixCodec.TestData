@@ -1,0 +1,47 @@
+{
+ "gamma": 1.0,
+ "text": [
+  {
+   "keyword": "Title",
+   "text": "PngSuite",
+   "itxt": true,
+   "lang": "fi",
+   "tkey": "Otsikko"
+  },
+  {
+   "keyword": "Author",
+   "text": "Willem van Schaik (willem@schaik.com)",
+   "itxt": true,
+   "lang": "fi",
+   "tkey": "Tekijä"
+  },
+  {
+   "keyword": "Copyright",
+   "text": "Copyright Willem van Schaik, Kanada 2011",
+   "itxt": true,
+   "lang": "fi",
+   "tkey": "Tekijänoikeudet"
+  },
+  {
+   "keyword": "Description",
+   "text": "kokoelma joukon kuvia luotu testata eri väri-tyyppisiä PNG-muodossa. Mukana on mustavalkoinen, väri, paletted, alpha-kanava, avoimuuden muodossa. Kaikki bit-syvyydessä mukaan sallittua spec on ​​läsnä.",
+   "itxt": true,
+   "lang": "fi",
+   "tkey": "Kuvaus"
+  },
+  {
+   "keyword": "Software",
+   "text": "Luotu NeXTstation väriä \"pnmtopng\".",
+   "itxt": true,
+   "lang": "fi",
+   "tkey": "Ohjelmistot"
+  },
+  {
+   "keyword": "Disclaimer",
+   "text": "Freeware.",
+   "itxt": true,
+   "lang": "fi",
+   "tkey": "Vastuuvapauslauseke"
+  }
+ ]
+}

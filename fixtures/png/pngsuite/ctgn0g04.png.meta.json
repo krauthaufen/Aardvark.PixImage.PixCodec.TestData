@@ -1,0 +1,47 @@
+{
+ "gamma": 1.0,
+ "text": [
+  {
+   "keyword": "Title",
+   "text": "PngSuite",
+   "itxt": true,
+   "lang": "el",
+   "tkey": "Τίτλος"
+  },
+  {
+   "keyword": "Author",
+   "text": "Willem van Schaik (willem@schaik.com)",
+   "itxt": true,
+   "lang": "el",
+   "tkey": "Συγγραφέας"
+  },
+  {
+   "keyword": "Copyright",
+   "text": "Πνευματικά δικαιώματα Schaik van Willem, Καναδάς 2011",
+   "itxt": true,
+   "lang": "el",
+   "tkey": "Πνευματικά δικαιώματα"
+  },
+  {
+   "keyword": "Description",
+   "text": "Μια συλλογή από ένα σύνολο εικόνων που δημιουργήθηκαν για τη δοκιμή των διαφόρων χρωμάτων-τύπων του μορφή PNG. Περιλαμβάνονται οι ασπρόμαυρες, χρώμα, paletted, με άλφα κανάλι, με μορφές της διαφάνειας. Όλοι λίγο-βάθη επιτρέπεται σύμφωνα με το spec είναι παρόντες.",
+   "itxt": true,
+   "lang": "el",
+   "tkey": "Περιγραφή"
+  },
+  {
+   "keyword": "Software",
+   "text": "Δημιουργήθηκε σε ένα χρώμα NeXTstation χρησιμοποιώντας \"pnmtopng\".",
+   "itxt": true,
+   "lang": "el",
+   "tkey": "Λογισμικό"
+  },
+  {
+   "keyword": "Disclaimer",
+   "text": "Δωρεάν λογισμικό.",
+   "itxt": true,
+   "lang": "el",
+   "tkey": "Αποποίηση"
+  }
+ ]
+}
