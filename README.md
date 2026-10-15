@@ -19,6 +19,7 @@ reference decoders make of it, written by PixCodec's `tests/oracle/gen_*.py`.
 | `fixtures/hdr` | `studio_small_09_1k.hdr` of Poly Haven, https://polyhaven.com/a/studio_small_09 | CC0 |
 | `fixtures/metadata/exiftool` | sample images of ExifTool 13.59 | Perl terms (GPL or Artistic), see the README there |
 | `fixtures/metadata/odm` | OpenDroneMap sample drone photos, truncated after the scan start | CC0, see the README there |
+| `fixtures/icc` | Compact-ICC-Profiles by Clinton Ingram (https://github.com/saucecontrol/Compact-ICC-Profiles) and the ICC's `sRGB_v4_ICC_preference.icc`, unchanged | CC0 1.0 / ICC terms (copy and distribute unchanged), see the README there |
 | `fixtures/lerc` | `bluemarble_256_256_3_byte.lerc2`, `california_400_400_1_float.lerc2` and `world.lerc1` of https://github.com/Esri/lerc (testData), renamed `esri_*.lerc` | Apache-2.0, see `LICENSE.Apache-2.0` and `ESRI-NOTICE.txt` |
 
 The `.ref`, `.json` and `.sha256` sidecars and `fixtures/lerc/manifest.tsv` are reference decodes / hashes of these files.
