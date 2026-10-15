@@ -1,7 +1,7 @@
 # ICC profiles
 
-Third-party ICC profiles for PixCodec's colour management tests (`IccTests.ThirdPartyMatchesLittleCms`), copied here
-unchanged by PixCodec's `tests/oracle/gen_icc.py`, with LittleCMS 2 reference conversions of a test pattern through them
+Third-party ICC profiles for Aardvark.PixImage.IO's colour management tests (`IccTests.ThirdPartyMatchesLittleCms`), copied here
+unchanged by Aardvark.PixImage.IO's `tests/oracle/gen_icc.py`, with LittleCMS 2 reference conversions of a test pattern through them
 (`in_*.ref` inputs, `<case>.ref` outputs, `cases.json`).
 
 | Files | Source | Licence |

@@ -1,7 +1,7 @@
 #!/bin/sh
 # Fetches the codestreams and reference images of the Rec. ITU-T T.803 | ISO/IEC 15444-4 conformance suite that
 # fixtures/jp2/conformance/limits.txt lists (about 93 MB; not redistributed here: their copyright notice
-# restricts them to JPEG 2000 conformance testing). PixCodec's Jp2ConformanceTests run them.
+# restricts them to JPEG 2000 conformance testing). Aardvark.PixImage.IO's Jp2ConformanceTests run them.
 set -e
 dir="$(cd "$(dirname "$0")/../fixtures/jp2/conformance" && pwd)"
 base="https://gitlab.com/wg1/htj2k-codestreams/-/raw/f6b9ede094a0bd6e1e0427e12721e3f3ee1b704b"
