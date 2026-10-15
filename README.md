@@ -1,13 +1,13 @@
-# Aardvark.PixImage.IO test data
+# Aardvark.PixImage.PixCodec test data
 
-Third-party test files for the Aardvark.PixImage.IO tests, kept out of the Aardvark.PixImage.IO repository so that it holds only MIT
-material. Nothing here is part of Aardvark.PixImage.IO; every file keeps the licence of its source, which sits next to it.
+Third-party test files for the Aardvark.PixImage.PixCodec tests, kept out of the Aardvark.PixImage.PixCodec repository so that it holds only MIT
+material. Nothing here is part of Aardvark.PixImage.PixCodec; every file keeps the licence of its source, which sits next to it.
 
-The Aardvark.PixImage.IO tests find this repository through the environment variable `PIXIMAGEIO_TESTDATA` or as
-`Aardvark.PixImage.IO.TestData` next to the Aardvark.PixImage.IO checkout. Without it the tests that need these files are skipped.
+The Aardvark.PixImage.PixCodec tests find this repository through the environment variable `PIXCODEC_TESTDATA` or as
+`Aardvark.PixImage.PixCodec.TestData` next to the Aardvark.PixImage.PixCodec checkout. Without it the tests that need these files are skipped.
 
-`fixtures/` mirrors `tests/fixtures` of Aardvark.PixImage.IO: `name.ext.ref` and the other sidecars next to a file are what
-reference decoders make of it, written by Aardvark.PixImage.IO's `tests/oracle/gen_*.py`.
+`fixtures/` mirrors `tests/fixtures` of Aardvark.PixImage.PixCodec: `name.ext.ref` and the other sidecars next to a file are what
+reference decoders make of it, written by Aardvark.PixImage.PixCodec's `tests/oracle/gen_*.py`.
 
 ## Committed files
 
@@ -15,7 +15,7 @@ reference decoders make of it, written by Aardvark.PixImage.IO's `tests/oracle/g
 | --- | --- | --- |
 | `fixtures/png/pngsuite` | PngSuite by Willem van Schaik, http://www.schaik.com/pngsuite/ | free to use, copy, modify and distribute, see `PngSuite.LICENSE` |
 | `fixtures/exr/official` | `ColorCodedLevels.exr`, `MirrorPattern.exr` and `Trunks.exr` of https://github.com/AcademySoftwareFoundation/openexr-images | BSD-3-Clause, see `LICENSE.openexr-images` |
-| `fixtures/bmp/bmpsuite` | BMP Suite 2.8 by Jason Summers, https://entropymine.com/jason/bmpsuite/: the generated `g`, `q`, `b` files and the reference renderings (`ref/`, from its html folder), imported by Aardvark.PixImage.IO's `tests/oracle/import_bmpsuite.py` | the generated images are public domain except for embedded ICC profiles (`README.bmpsuite.txt`); the generator itself (GPL-3.0) is not included |
+| `fixtures/bmp/bmpsuite` | BMP Suite 2.8 by Jason Summers, https://entropymine.com/jason/bmpsuite/: the generated `g`, `q`, `b` files and the reference renderings (`ref/`, from its html folder), imported by Aardvark.PixImage.PixCodec's `tests/oracle/import_bmpsuite.py` | the generated images are public domain except for embedded ICC profiles (`README.bmpsuite.txt`); the generator itself (GPL-3.0) is not included |
 | `fixtures/hdr` | `studio_small_09_1k.hdr` of Poly Haven, https://polyhaven.com/a/studio_small_09 | CC0 |
 | `fixtures/metadata/exiftool` | sample images of ExifTool 13.59 | Perl terms (GPL or Artistic), see the README there |
 | `fixtures/metadata/odm` | OpenDroneMap sample drone photos, truncated after the scan start | CC0, see the README there |
@@ -34,7 +34,7 @@ the scripts fetch the files themselves (git-ignored):
 | `fixtures/webp/vectors/*.webp`: libwebp test vectors, https://chromium.googlesource.com/webm/libwebp-test-data (no licence file) | `fetch/fetch_webp_vectors.sh` | `WebpTests.VectorsMatchReference` |
 | `fixtures/jp2/conformance/**`: Rec. ITU-T T.803 \| ISO/IEC 15444-4 conformance codestreams, https://gitlab.com/wg1/htj2k-codestreams (conformance testing only, 93 MB) | `fetch/fetch_jp2_conformance.sh` | `Jp2ConformanceTests` |
 | `fixtures/tga/gimp/*.tga`, `*.png`: GIMP-written TGA files and their PNG renderings from Pillow 11.1.0 `Tests/images/tga/common` (no licence of their own) | `fetch/fetch_pillow_tga.sh` | `BmpTgaThirdPartyTests.GimpWrittenTga` |
-| `downloads/tiff-samples`: libtiff's sample pictures (pics-3.8.0, no licence) | Aardvark.PixImage.IO's `tests/oracle/fetch_tiff_samples.py` | `TiffTests.RealWorldSamples` |
+| `downloads/tiff-samples`: libtiff's sample pictures (pics-3.8.0, no licence) | Aardvark.PixImage.PixCodec's `tests/oracle/fetch_tiff_samples.py` | `TiffTests.RealWorldSamples` |
 | `downloads/tiff-samples/JP2K-33003-1.svs`: OpenSlide test data (CC0, 64 MB) | `fetch_tiff_samples.py --aperio` | `TiffTests.AperioJpeg2000Sample` |
 | `downloads/gdal-samples`: the TIFF files of the GDAL 3.11.0 autotest archive | `fetch_tiff_samples.py --gdal` | `TiffTests.GdalAutotestSamples` |
 
