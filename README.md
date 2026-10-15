@@ -16,6 +16,9 @@ reference decoders make of it, written by PixCodec's `tests/oracle/gen_*.py`.
 | `fixtures/png/pngsuite` | PngSuite by Willem van Schaik, http://www.schaik.com/pngsuite/ | free to use, copy, modify and distribute, see `PngSuite.LICENSE` |
 | `fixtures/exr/official` | `ColorCodedLevels.exr`, `MirrorPattern.exr` and `Trunks.exr` of https://github.com/AcademySoftwareFoundation/openexr-images | BSD-3-Clause, see `LICENSE.openexr-images` |
 | `fixtures/bmp/bmpsuite` | BMP Suite 2.8 by Jason Summers, https://entropymine.com/jason/bmpsuite/: the generated `g`, `q`, `b` files and the reference renderings (`ref/`, from its html folder), imported by PixCodec's `tests/oracle/import_bmpsuite.py` | the generated images are public domain except for embedded ICC profiles (`README.bmpsuite.txt`); the generator itself (GPL-3.0) is not included |
+| `fixtures/hdr` | `studio_small_09_1k.hdr` of Poly Haven, https://polyhaven.com/a/studio_small_09 | CC0 |
+| `fixtures/metadata/exiftool` | sample images of ExifTool 13.59 | Perl terms (GPL or Artistic), see the README there |
+| `fixtures/metadata/odm` | OpenDroneMap sample drone photos, truncated after the scan start | CC0, see the README there |
 | `fixtures/lerc` | `bluemarble_256_256_3_byte.lerc2`, `california_400_400_1_float.lerc2` and `world.lerc1` of https://github.com/Esri/lerc (testData), renamed `esri_*.lerc` | Apache-2.0, see `LICENSE.Apache-2.0` and `ESRI-NOTICE.txt` |
 
 The `.ref`, `.json` and `.sha256` sidecars and `fixtures/lerc/manifest.tsv` are reference decodes / hashes of these files.
