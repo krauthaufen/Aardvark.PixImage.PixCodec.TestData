@@ -38,7 +38,7 @@ the scripts fetch the files themselves (git-ignored):
 | `downloads/tiff-samples/JP2K-33003-1.svs`: OpenSlide test data (CC0, 64 MB) | `fetch_tiff_samples.py --aperio` | `TiffTests.AperioJpeg2000Sample` |
 | `downloads/gdal-samples`: the TIFF files of the GDAL 3.11.0 autotest archive | `fetch_tiff_samples.py --gdal` | `TiffTests.GdalAutotestSamples` |
 | `downloads/jpegls-conformance`: the ITU-T T.87 \| ISO/IEC 14495-1 conformance images, from CharLS 2.4.2 `test/conformance` (no licence of their own) | Aardvark.PixImage.PixCodec's `tests/oracle/fetch_jpegls_conformance.py` | `JpegLsTests.ConformanceImages` |
-| `downloads/jxl-conformance`: the JPEG XL conformance suite, https://github.com/libjxl/conformance (BSD-3-Clause, source image licences in its testcases/README.md) | Aardvark.PixImage.PixCodec's `tests/oracle/fetch_jxl_conformance.py` | `JxlConformanceTests` |
+| `downloads/jxl-conformance`: the JPEG XL conformance suite, https://github.com/libjxl/conformance (BSD-3-Clause, source image licences in its testcases/README.md) | Aardvark.PixImage.PixCodec's `tests/oracle/fetch_jxl_conformance.py` | `JxlTests.Conformance` |
 
 `fixtures/tga/gimp/sha256.txt`, `fixtures/webp/vectors/refs.txt` (size, channels and SHA-256 of libwebp's decode per vector) and
 `fixtures/jp2/conformance/limits.txt` (SHA-256 of codestreams and reference images, error bounds of the standard)
