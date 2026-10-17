@@ -39,6 +39,7 @@ the scripts fetch the files themselves (git-ignored):
 | `downloads/gdal-samples`: the TIFF files of the GDAL 3.11.0 autotest archive | `fetch_tiff_samples.py --gdal` | `TiffTests.GdalAutotestSamples` |
 | `downloads/jpegls-conformance`: the ITU-T T.87 \| ISO/IEC 14495-1 conformance images, from CharLS 2.4.2 `test/conformance` (no licence of their own) | Aardvark.PixImage.PixCodec's `tests/oracle/fetch_jpegls_conformance.py` | `JpegLsTests.ConformanceImages` |
 | `downloads/jxl-conformance`: the JPEG XL conformance suite, https://github.com/libjxl/conformance (BSD-3-Clause, source image licences in its testcases/README.md) | Aardvark.PixImage.PixCodec's `tests/oracle/fetch_jxl_conformance.py` | `JxlTests.Conformance` |
+| `downloads/dng-samples`: 14 camera DNG files of https://raw.pixls.us (CC0 1.0; Adobe DNG Converter lossy, Apple iPhone 6s Plus / 12 Pro, Blackmagic Pocket, Canon A410 CHDK, Canon 5D Mark III (2), Fujifilm X100S X-Trans, Google Pixel 2 XL, Leica M9 / M Monochrom 246, Nikon D80, Pentax K-x, Samsung Galaxy S23; 190 MB) with tifffile / LibRaw references | Aardvark.PixImage.PixCodec's `tests/oracle/fetch_dng_samples.py` | `DngTests.RealSamples*` |
 
 `fixtures/tga/gimp/sha256.txt`, `fixtures/webp/vectors/refs.txt` (size, channels and SHA-256 of libwebp's decode per vector) and
 `fixtures/jp2/conformance/limits.txt` (SHA-256 of codestreams and reference images, error bounds of the standard)
