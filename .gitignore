@@ -7,3 +7,6 @@
 /fixtures/mpo/pillow/*.jpg
 /fixtures/av1/aom/*.ivf
 /fixtures/av1/aom/*.md5
+/fixtures/avif/libavif/*.avif
+/fixtures/avif/libavif/io/
+/fixtures/avif/libavif/README.md
