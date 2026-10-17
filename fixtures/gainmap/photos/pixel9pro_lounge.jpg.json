@@ -1,0 +1,10 @@
+{
+ "gamma": 1.0,
+ "hdrCapacityMax": 1.94632,
+ "hdrCapacityMin": 1.0,
+ "maxContentBoost": 1.94632,
+ "minContentBoost": 1.0,
+ "offsetHdr": 0.0,
+ "offsetSdr": 0.0,
+ "useBaseColorSpace": 1.0
+}
