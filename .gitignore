@@ -5,3 +5,5 @@
 /fixtures/tga/gimp/*.png
 /fixtures/mpo/pillow/*.mpo
 /fixtures/mpo/pillow/*.jpg
+/fixtures/av1/aom/*.ivf
+/fixtures/av1/aom/*.md5
