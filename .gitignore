@@ -10,3 +10,5 @@
 /fixtures/avif/libavif/*.avif
 /fixtures/avif/libavif/io/
 /fixtures/avif/libavif/README.md
+/fixtures/nitf/jitc/*.ntf
+/fixtures/nitf/jitc/*.nsf
