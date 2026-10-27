@@ -4,8 +4,8 @@
 set -e
 dir="$(cd "$(dirname "$0")/../fixtures/avif/libavif" && pwd)"
 base=https://raw.githubusercontent.com/AOMediaCodec/libavif/v1.2.1/tests/data
-[ -f "$dir/README.md" ] || curl -sSfL --retry 6 --retry-all-errors --retry-delay 10 -o "$dir/README.md" "$base/README.md"
+[ -f "$dir/README.md" ] || curl -sSfL --retry 6 --retry-all-errors --retry-delay 10 --retry-max-time 120 --max-time 600 -o "$dir/README.md" "$base/README.md"
 grep -v '^#' "$dir/refs.txt" | cut -d' ' -f1 | while read -r f; do
-  [ -f "$dir/$f" ] || { mkdir -p "$dir/$(dirname "$f")"; curl -sSfL --retry 6 --retry-all-errors --retry-delay 10 -o "$dir/$f" "$base/$f"; }
+  [ -f "$dir/$f" ] || { mkdir -p "$dir/$(dirname "$f")"; curl -sSfL --retry 6 --retry-all-errors --retry-delay 10 --retry-max-time 120 --max-time 600 -o "$dir/$f" "$base/$f"; }
 done
 cd "$dir" && grep -v '^#' refs.txt | awk '{ print $2 "  " $1 }' | sha256sum -c --quiet

@@ -9,7 +9,7 @@ grep -v '^#' "$dir/limits.txt" | tr ' ' '\n' | grep -E '\.(j2k|pgx)$' | sort -u 
     out="$dir/$f"
     [ -f "$out" ] && continue
     mkdir -p "$(dirname "$out")"
-    curl -fsSL --retry 6 --retry-all-errors --retry-delay 10 -o "$out.part" "$base/$f"
+    curl -fsSL --retry 6 --retry-all-errors --retry-delay 10 --retry-max-time 120 --max-time 600 -o "$out.part" "$base/$f"
     mv "$out.part" "$out"
 done
 # every file must be the one the limits were taken for
