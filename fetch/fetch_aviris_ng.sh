@@ -10,6 +10,6 @@ dir="$root/downloads/aviris-ng"
 mkdir -p "$dir"
 base=https://avng.jpl.nasa.gov/pub/ZYang/ang20150811t172724_rdn_v1h
 cut -d' ' -f3 "$sums" | while read -r f; do
-  [ -f "$dir/$f" ] || curl -sSfL --retry 6 --retry-all-errors --retry-delay 10 -o "$dir/$f" "$base/$f"
+  [ -f "$dir/$f" ] || curl -sSfL --retry 6 --retry-all-errors --retry-delay 10 -o "$dir/$f" "$base/$f" || { echo "failed: $base/$f" >&2; exit 1; }
 done
 cd "$dir" && sha256sum -c --quiet "$sums"

@@ -7,6 +7,6 @@ dir="$(cd "$(dirname "$0")/../fixtures/nitf/jitc" && pwd)"
 base=https://download.osgeo.org/gdal/data/nitf
 while read -r src; do
   f="$dir/$(basename "$src")"
-  [ -f "$f" ] || curl -sSfL --retry 6 --retry-all-errors --retry-delay 10 -o "$f" "$base/$src"
+  [ -f "$f" ] || curl -sSfL --retry 6 --retry-all-errors --retry-delay 10 -o "$f" "$base/$src" || { echo "failed: $base/$src" >&2; exit 1; }
 done < "$dir/sources.txt"
 cd "$dir" && sha256sum -c --quiet sha256.txt
