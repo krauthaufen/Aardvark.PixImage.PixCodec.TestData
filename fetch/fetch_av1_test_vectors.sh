@@ -4,6 +4,6 @@
 set -e
 dir="$(cd "$(dirname "$0")/../fixtures/av1/aom" && pwd)"
 cut -d' ' -f3 "$dir/sha256.txt" | while read -r f; do
-  [ -f "$dir/$f" ] || curl -sSfL -o "$dir/$f" "https://storage.googleapis.com/aom-test-data/$f"
+  [ -f "$dir/$f" ] || curl -sSfL --retry 6 --retry-all-errors --retry-delay 10 -o "$dir/$f" "https://storage.googleapis.com/aom-test-data/$f"
 done
 cd "$dir" && sha256sum -c --quiet sha256.txt
